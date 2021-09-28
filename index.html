@@ -10,31 +10,30 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
-                  </li>
-                </ul>
-                <span class="navbar-text">
-                  Navbar text with an inline element
-                </span>
-              </div>
-            </div>
-          </nav>
+    <header class="navbar-dark bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex justify-content-end d-none">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
     <body>
         <main>
@@ -44,13 +43,13 @@
                         <div class="col text-center">
                             <img class="w-50"src="img/avatar.svg" alt="avatar">
                         </div>
-                        <div class="col text-center text-white">
+                        <div class="col text-center text-white pt-2">
                             <h1>START BOOSTRAP</h1>
                         </div>
                         <div class="col text-center text-white">
                             <div>----------- STELLA ----------</div>
                         </div>
-                        <div class="col text-center text-white">
+                        <div class="col text-center text-white pt-2">
                             <div>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
                         </div>
                     </div>
@@ -68,22 +67,22 @@
             <section>
                 <div class="container">
                     <div class="row mb-3">
-                        <div class="col-xs-12 col-md-6 col-lg-4 text-center pb-3">
+                        <div class="col-sm-12 col-md-6 col-lg-4 text-center pb-3">
                             <img class="rounded img-fluid" src="img/cabin.png" alt="cabbin">
                         </div>
-                        <div class="col-xs-12 col-md-6 col-lg-4 text-center pb-3">
+                        <div class="col-sm-12 col-md-6 col-lg-4 text-center pb-3">
                             <img class="rounded img-fluid" src="img/cake.png" alt="cake">
                         </div>
-                        <div class="col-xs-12 col-md-6 col-lg-4 text-center pb-3">
+                        <div class="col-sm-12 col-md-6 col-lg-4 text-center pb-3">
                             <img class="rounded img-fluid" src="img/circus.png" alt="circus">
                         </div>
-                        <div class="col-xs-12 col-md-6 col-lg-4 text-center pb-3">
+                        <div class="col-sm-12 col-md-6 col-lg-4 text-center pb-3">
                             <img class="rounded img-fluid" src="img/game.png" alt="game">
                         </div>
-                        <div class="col-xs-12 col-md-6 col-lg-4 text-center pb-3">
+                        <div class="col-sm-12 col-md-6 col-lg-4 text-center pb-3">
                             <img class="rounded img-fluid" src="img/safe.png" alt="safe">
                         </div>
-                        <div class="col-xs-12 col-md-6 col-lg-4 text-center pb-3">
+                        <div class="col-sm-12 col-md-6 col-lg-4 text-center pb-3">
                             <img class="rounded img-fluid" src="img/submarine.png" alt="submarine">
                         </div>
                     </div>
@@ -91,8 +90,8 @@
             </section>
 
             <!-- ABOUT -->
-            <section>
-                <div class="container pt-4 pb-3 bg-success">
+            <section class="bg-success">
+                <div class="container pt-4 pb-3">
                     <div class="row mb-3">
                         <div class="col text-center text-white">
                             <h3>ABOUT</h3>
@@ -103,21 +102,22 @@
                             <div>----------- STELLA ----------</div>
                         </div>
                     </div>
-                    <div class="row mb-3 mx-auto">
+                    <div class="row mb-3 mx-auto px-5">
                         <div class="col col-xs-12 col-md-6 col-lg-6 text-white">
-                            <div class="mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Illum eaque doloribus in ab sed non molestiae totam magnam ea quae sunt 
-                                voluptatum quaerat, delectus modi ipsam minima laudantium maxime nesciunt.</div>
+                            <div class="mx-auto">Freelancer is a free bootstrap theme created by Start Bootstrap.
+                                The download includes the complete source files including HTML, CSS, and JavaScript as well
+                                optional LESS stylesheets for easy customization.
+                            </div>
                         </div>
                         <div class="col col-xs-12 col-md-6 col-lg-6 text-white">
-                            <div class="mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae obcaecati non explicabo libero
-                                 nihil aliquam saepe, quasi odio sequi, asperiores
-                                 itaque amet inventore magni odit qui. Dolores reiciendis inventore sed.</div>
+                            <div class="mx-auto">Wheter you're a student looking to showcase your work, a professional looking
+                                to attract clients, ora a graphic artist looking to share your projects, this template is the perfect
+                                starting point.</div>
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col text-center ">
-                            <button type="button" class="btn btn-light">Success</button>
+                            <button type="button" class="btn btn-light">Download</button>
                         </div>
                     </div>
                 </div>
@@ -145,34 +145,38 @@
                             <div class="border-bottom pb-5">Message</div>
                         </div>
                     </div>
-                    <div class="w-50 mx-auto row mt-4 mb-4">
-                        <button type="button" class="w-50 btn btn-success">Success</button>
+                    <div class="w-50 mx-auto mt-4 mb-4">
+                        <button type="button" class="btn btn-success">Send</button>
                     </div>
                 </div>
             </section>
         </main>
     </body>
-    <footer>
+    <footer class="bg-dark text-light">
         <!--  GENERAL INFO -->
         <section>
-            <div class="container bg-dark text-light">
-                <div class="row mb-3">
-                    <div class="col col-xs-12 col-md-4 col-lg-4 text-center pt-3 ">
+            <div class="container">
+                <div class="row pb-4 pt-3">
+                    <div class="col col-xs-12 col-md-4 col-lg-4 text-center pt-3 px-0">
                         <h6>LOCATION</h6>
                         <div>2215 John Daniel Drive Clark, MO 54243</div>
                     </div>
-                    <div class="col col-xs-12 col-md-4 col-lg-4 text-center pt-3 ">
+                    <div class="col col-xs-12 col-md-4 col-lg-4 text-center pt-3 px-0">
                         <h6>AROUND THE WEB</h6>
                         <div>------------ICONE-------------></div>
                     </div>
-                    <div class="col col-xs-12 col-md-4 col-lg-4 text-center pt-3 ">
+                    <div class="col col-xs-12 col-md-4 col-lg-4 text-center pt-3 px-0">
                         <h6>ABOUT FREELANCER</h6>
                         <div>Freelance is a free to use, open source Bootstrap theme created by <span class="text-success">Start Bootstrap</span>.</div>
                     </div>
                 </div>
+            </div>
+        </section>
                 <!-- ULTIMA ROW CHANGE BACKGROUND COLOR -->
-                <div class="row mb-3 bg-secondary text-light">
-                    <div class="col text-center py-5 ">
+        <section class="bg-secondary text-light">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col text-center py-4 ">
                         <div>Copyright @ Your Website 2019</div>
                     </div>
                 </div>

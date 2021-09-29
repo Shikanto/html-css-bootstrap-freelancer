@@ -5,29 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Boostrap</title>
 </head>
 <body>
-    <header class="navbar-dark bg-dark">
+    <header class="navbar-dark bg-header-footer">
         <div class="container-md">
             <nav class="navbar navbar-expand-md">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="navbar-collapse d-flex justify-content-end d-none">
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                                <a class="nav-link active" aria-current="page" href="#portfolio">PORTFOLIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                                <a class="nav-link active" aria-current="page" href="#about">ABOUT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                                <a class="nav-link active" aria-current="page" href="#contact">CONTACT</a>
                             </li>
                         </ul>
                     </div>
@@ -37,29 +37,40 @@
     </header>
     <body>
         <main>
-            <section class="bg-success py-4">
-                <div class="container d-flex justify-content-center align-items-center">
-                    <div class="row md-w-50 mb-3 d-flex flex-column justify-content-center align-items-center">
-                        <div class="col text-center">
+            <section class="bg-hero py-4">
+                <div class="container text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-8 col-md-5 col-lg-4">
                             <img class="w-50"src="img/avatar.svg" alt="avatar">
                         </div>
-                        <div class="col text-center text-white pt-2">
+                    </div>
+                    <div class="row mb-3">
+                        <div class="text-white pt-2">
                             <h1>START BOOSTRAP</h1>
                         </div>
-                        <div class="col text-center text-white">
-                            <div>----------- STELLA ----------</div>
+                        <div class="text-white">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="col-1 col-md-2 col-lg-2 border border-1 d-inline-block mx-2"></div> 
+                                <i class="fas fa-star"></i> 
+                                <div class="col-1 col-md-2 col-lg-2 border border-1  d-inline-block mx-2"></div>
+                            </div>
                         </div>
-                        <div class="col text-center text-white pt-2">
+                        <div class="text-center text-white pt-2">
                             <div>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
                         </div>
                     </div>
+                </div>
             </section>
-            <section>
+            <section id="portfolio">
                 <div class="container">
                     <div class="row pt-4 pb-3 mb-3">
                         <div class="col text-center">
                             <h2>PORTFOLIO</h2>
-                            <div>----------- STELLA ----------</div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="col-1 col-md-2 col-lg-2 border border-1 border-dark d-inline-block mx-2"></div> 
+                                <i class="fas fa-star"></i> 
+                                <div class="col-1 col-md-2 col-lg-2 border border-1 border-dark d-inline-block mx-2"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -90,26 +101,30 @@
             </section>
 
             <!-- ABOUT -->
-            <section class="bg-success">
+            <section class="bg-hero" id="about">
                 <div class="container pt-4 pb-3">
                     <div class="row mb-3">
                         <div class="col text-center text-white">
                             <h3>ABOUT</h3>
                         </div>
                     </div>
-                    <div class="row mb-3">
+                    <div class="row mb-3 ">
                         <div class="col text-center text-white">
-                            <div>----------- STELLA ----------</div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="col-1 col-md-2 col-lg-2 border border-1 d-inline-block mx-2"></div> 
+                                <i class="fas fa-star"></i> 
+                                <div class="col-1 col-md-2 col-lg-2 border border-1  d-inline-block mx-2"></div>
+                            </div>
                         </div>
                     </div>
                     <div class="row mb-3 mx-auto px-5">
-                        <div class="col col-xs-12 col-md-6 col-lg-6 text-white">
+                        <div class="col col-md-6 col-lg-6 text-white">
                             <div class="mx-auto">Freelancer is a free bootstrap theme created by Start Bootstrap.
                                 The download includes the complete source files including HTML, CSS, and JavaScript as well
                                 optional LESS stylesheets for easy customization.
                             </div>
                         </div>
-                        <div class="col col-xs-12 col-md-6 col-lg-6 text-white">
+                        <div class="col-10 col-md-6 col-lg-6 text-white" >
                             <div class="mx-auto">Wheter you're a student looking to showcase your work, a professional looking
                                 to attract clients, ora a graphic artist looking to share your projects, this template is the perfect
                                 starting point.</div>
@@ -117,7 +132,7 @@
                     </div>
                     <div class="row mb-3">
                         <div class="col text-center ">
-                            <button type="button" class="btn btn-light">Download</button>
+                            <button type="button" class="btn btn-light bg-hero text-light"><i class="fas fa-download"></i> Download</button>
                         </div>
                     </div>
                 </div>
@@ -125,7 +140,7 @@
             </section>
 
             <!-- CONTACT ME -->
-            <section>
+            <section id="contact">
                 <div class="container">
                     <div class="row mb-3">
                         <div class="col text-center pt-4 ">
@@ -134,38 +149,54 @@
                     </div>
                     <div class="row mb-3">
                         <div class="col text-center pb-3">
-                            <div>----------- STELLA ----------</div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="col-1 col-md-2 col-lg-2 border border-1 border-dark d-inline-block mx-2"></div> 
+                                <i class="fas fa-star"></i> 
+                                <div class="col-1 col-md-2 col-lg-2 border border-1 border-dark d-inline-block mx-2"></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row w-50 mx-auto">
-                        <div class="d-flex flex-column justify-content-center p-0">
-                            <div class="border-bottom">Name</div>
-                            <div class="border-bottom">Email Address</div>
-                            <div class="border-bottom">Phone Number</div>
-                            <div class="border-bottom pb-5">Message</div>
+                    <div class="row mx-auto justify-content-center w-75">
+                        <div class="form-floating ">
+                            <input class="form-control border-0 border-bottom" placeholder="Name">
+                            <label for="floatingInput">Name</label>
                         </div>
-                    </div>
-                    <div class="w-50 mx-auto mt-4 mb-4">
-                        <button type="button" class="btn btn-success">Send</button>
+                        <div class="form-floating">
+                            <input class="form-control border-0 border-bottom" placeholder="Email address">
+                            <label for="floatingPassword">Email address</label>
+                        </div>
+                        <div class="form-floating">
+                            <input class="form-control border-0 border-bottom" placeholder="Phone Number">
+                            <label for="floatingPassword">Phone Number</label>
+                        </div>
+                        <div class="form-floating">
+                            <input class="form-control border-0" id="floatingPassword" placeholder="Message">
+                            <label for="floatingPassword">Message</label>
+                            <textarea class="form-control border-0 border-bottom" placeholder="Leave a comment here">
+                            </textarea>
+                        </div>
+                        <div class="mx-auto mt-2 mb-4">
+                            <button type="button" class="btn bg-hero text-light">Send</button>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
     </body>
-    <footer class="bg-dark text-light">
+    <footer class="bg-top-footer text-light">
         <!--  GENERAL INFO -->
         <section>
             <div class="container">
                 <div class="row pb-4 pt-3">
-                    <div class="col col-xs-12 col-md-4 col-lg-4 text-center pt-3 px-0">
+                    <div class="col-12 col-md-4 col-lg-4 text-center pt-3 px-3">
                         <h6>LOCATION</h6>
                         <div>2215 John Daniel Drive Clark, MO 54243</div>
                     </div>
-                    <div class="col col-xs-12 col-md-4 col-lg-4 text-center pt-3 px-0">
+                    <div class="col-12 col-md-4 col-lg-4 text-center pt-3 px-3">
                         <h6>AROUND THE WEB</h6>
                         <div>------------ICONE-------------></div>
                     </div>
-                    <div class="col col-xs-12 col-md-4 col-lg-4 text-center pt-3 px-0">
+                    <div class="col-12 col-md-4 col-lg-4 text-center pt-3 px-3">
                         <h6>ABOUT FREELANCER</h6>
                         <div>Freelance is a free to use, open source Bootstrap theme created by <span class="text-success">Start Bootstrap</span>.</div>
                     </div>
@@ -173,11 +204,11 @@
             </div>
         </section>
                 <!-- ULTIMA ROW CHANGE BACKGROUND COLOR -->
-        <section class="bg-secondary text-light">
+        <section class="bg-header-footer text-light">
             <div class="container">
                 <div class="row mb-3">
                     <div class="col text-center py-4 ">
-                        <div>Copyright @ Your Website 2019</div>
+                        <div>Copyright <i class="far fa-copyright"></i> Your Website 2019</div>
                     </div>
                 </div>
             </div>
